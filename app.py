@@ -64,8 +64,8 @@ def login():
             message = 'Logged in successfully !'
             # return render_template('otpverify.html',
             #                        message=message)
-            sender_email = "vandittalwadia30@gmail.com"
-            sender_pass = "jzxbdxykdhidjjzu"  #app password created after 2step verification google id
+            sender_email = "shubhjain202@gmail.com"
+            sender_pass = "tpeggrxljdyjdrah"  #app password created after 2step verification google id
             receive_email = user['email']
             s = smtplib.SMTP('smtp.gmail.com', 587)
             s.starttls()
@@ -95,8 +95,8 @@ Subject: LOGIN OTP
 
 # @app.route('/enterotp', methods=['GET', 'POST'])
 # def enterotp():
-#     sender_email = "vandittalwadia30@gmail.com"
-#     sender_pass = "errlmtqeftcxyhsl"  #app password created after 2step verification google id
+#     sender_email = "shubhjain202@gmail.com"
+#     sender_pass = "tpeggrxljdyjdrah"  #app password created after 2step verification google id
 #     receive_email = request.form['email']
 #     s = smtplib.SMTP('smtp.gmail.com', 587)
 #     s.starttls()
